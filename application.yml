@@ -26,8 +26,8 @@ spring:
     stream:
       kafka:
         binder:
-          brokers: 192.168.239.129:9092,192.168.239.129:9093,192.168.239.129:9094
-          zkNodes: 192.168.239.129:2181
+          brokers: 172.16.200.34:9092
+          zkNodes: 172.16.200.34:2183
 
 # Discovery Server Access
 eureka:
